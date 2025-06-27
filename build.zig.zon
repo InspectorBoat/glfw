@@ -30,8 +30,8 @@
             .lazy = true,
         },
         .x11_headers = .{
-            .url = "https://pkg.machengine.org/x11-headers/29aefb525d5c08b05b0351e34b1623854a138c21.tar.gz",
-            .hash = "1220e79da2d5efd5e9dd8b6453f83a9ec79534e2e203b3331766b81e49171f3db474",
+            .url = "git+https://github.com/InspectorBoat/x11_headers#b5855a2a2e7d4f473f55947ece9b74a5eaf67fec",
+            .hash = "x11_headers-1.0.0-hf9j2DbOQQAVPvqTFcLZJ7U8F6UDZWvb6nJIT2BdO--i",
             .lazy = true,
         },
     },
