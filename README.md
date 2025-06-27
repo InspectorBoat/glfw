@@ -4,7 +4,7 @@ This is a fork of [glfw](https://github.com/glfw/glfw), packaged for Zig. Unnece
 
 This was once maintained by Mach Engine, but was abandoned and moved to a personal repository, which was then deleted. This is a reupload, pulled from [https://pkg.machengine.org/glfw/ec656e10d3643a3a71149bb96ae6b0831b84b677.tar.gz](https://pkg.machengine.org/glfw/ec656e10d3643a3a71149bb96ae6b0831b84b677.tar.gz) and "rebased" on glfw at the time of upload, as the package pulled from pkg.machengine.org did not include git history. (The rebase was done manually, by cloning https://github.com/glfw/glfw and manually making changes to match the archived package.)
 
-_Looking for Zig bindings to GLFW?_ See [inspectorboat/glfw](https://github.com/inspectorboat/mach-glfw).
+_Looking for Zig bindings to GLFW?_ See [inspectorboat/mach_glfw](https://github.com/inspectorboat/mach_glfw).
 
 ## Updating
 
