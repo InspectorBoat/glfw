@@ -41,8 +41,8 @@ pub fn build(b: *std.Build) void {
             .target = target,
             .optimize = optimize,
         })) |dep| {
-            lib.linkLibrary(dep.artifact("x11-headers"));
-            lib.installLibraryHeaders(dep.artifact("x11-headers"));
+            lib.linkLibrary(dep.artifact("x11_headers"));
+            lib.installLibraryHeaders(dep.artifact("x11_headers"));
         }
         if (b.lazyDependency("wayland_headers", .{})) |dep| {
             lib.addIncludePath(dep.path("wayland"));
@@ -143,7 +143,7 @@ pub fn build(b: *std.Build) void {
             }
 
             if (use_wl) {
-                lib.root_module.addCMacro("WL_MARSHAL_FLAG_DESTROY", "1");
+                // lib.root_module.addCMacro("WL_MARSHAL_FLAG_DESTROY", "1");
 
                 sources.appendSlice(&linux_wl_sources) catch unreachable;
                 flags.append("-D_GLFW_WAYLAND") catch unreachable;
