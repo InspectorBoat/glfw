@@ -16,12 +16,12 @@
     .dependencies = .{
         .xcode_frameworks = .{
             .url = "https://pkg.machengine.org/xcode-frameworks/9a45f3ac977fd25dff77e58c6de1870b6808c4a7.tar.gz",
-            .hash = "122098b9174895f9708bc824b0f9e550c401892c40a900006459acf2cbf78acd99bb",
+            .hash = "N-V-__8AABHMqAWYuRdIlflwi8gksPnlUMQBiSxAqQAAZFms",
             .lazy = true,
         },
         .vulkan_headers = .{
-            .url = "https://pkg.machengine.org/vulkan-headers/53e3ee66a78b97075863135b429956f225b149a5.tar.gz",
-            .hash = "1220e3bb588011412a21b05e2372b8261434bc174dce61139c8450e05bc8f0609735",
+            .url = "git+https://github.com/InspectorBoat/vulkan-headers#615af04344baa1300b060e1b749f82f51504b73e",
+            .hash = "vulkan_headers-0.0.0-LogkUavFzgDvhaVSPKoP4ap72idon4H4N1fd7T-KqWvi",
             .lazy = true,
         },
         .wayland_headers = .{
@@ -30,8 +30,8 @@
             .lazy = true,
         },
         .x11_headers = .{
-            .url = "git+https://github.com/InspectorBoat/x11_headers#ea724209ba536f4b5c5d519ffb7f618a97138737",
-            .hash = "x11_headers-1.0.0-hf9j2DbOQQDCgNBZF8z5LetqVc3-0e0Auej1SulDSTwP",
+            .url = "git+https://github.com/InspectorBoat/x11_headers#227758d9b881de21620ed74664ed8fec6309be94",
+            .hash = "x11_headers-1.0.0-hf9j2ILOQQAXDeTszkCBX522J4SUYtsno38YqD4BHpj9",
             .lazy = true,
         },
     },
